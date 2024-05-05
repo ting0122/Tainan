@@ -1,0 +1,21 @@
+什麼是 API ?
+
+api 最初的目的就是為了解決 '特定資料' 的交換問題。
+讓其他人不需要自己解決問題。
+
+多年來，已經出現許多api模式了，例如 REST 、 RPC 、 GraphQL、 WebHook 、 WebSockets....
+
+其中比較熱門的是 "請求/回應式"的 api ，這種api通常用 rest, rpc, GraphQL 的模式來做。
+
+而 REST 則是最熱門的 API 模式，通常利用
+
+1. Get 請求
+2. POST
+3. Update
+
+比方說要操作:
+
+查詢 (Get), 假設要查詢所有使用者的資料。 那網址列的URL你可以看到 /users 
+如果你要對某某網站發出Get請求查詢cat，就可以這樣發出 : https://(某某網站)/cat
+
+而Get, Post 等等其實都是HTTP網路傳輸定義好的方式。
